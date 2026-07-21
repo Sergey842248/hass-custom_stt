@@ -7,6 +7,7 @@ This HA custom integration lets you use any compatible OpenAI API (OpenAI, GroqC
 - *OpenAI*
 - *GroqCloud*
 - *Mistral AI*
+- *Cohere*
 - *Custom*
 
 ## OpenAI
@@ -47,6 +48,17 @@ Currently all GroqCloud Whisper models are free up to 28800 audio seconds per da
 Currently all Mistral AI models are free up to 1 billion token per month !
 
 - `voxtral-mini`
+
+## OpenAI
+
+### Requirements 📖
+
+- An Cohere account 👤  --> You can create one [here](https://dashboard.cohere.com/welcome/register)
+- An `API Key` 🔑 --> You can generate one [here](https://dashboard.cohere.com/api-keys)
+
+### Models
+
+- `cohere-transcribe-03-2026`
 
 ## Custom
 
