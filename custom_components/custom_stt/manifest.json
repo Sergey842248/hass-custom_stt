@@ -1,0 +1,17 @@
+{
+  "domain": "custom_stt",
+  "name": "Custom STT",
+  "codeowners": [
+    "@sergey842248"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/sergey842248/hass-custom_stt",
+  "homekit": {},
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/sergey842248/hass-custom_stt/issues",
+  "requirements": [],
+  "ssdp": [],
+  "version": "1.0.0",
+  "zeroconf": []
+}
