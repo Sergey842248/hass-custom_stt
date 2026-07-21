@@ -56,7 +56,7 @@ whisper_providers = [
         "Cohere",
         "https://api.cohere.com",
         [
-            WhisperModel("command-a-03-2025", SUPPORTED_LANGUAGES),
+            WhisperModel("cohere-transcribe-03-2026", SUPPORTED_LANGUAGES),
         ],
         0,
         "/v2/audio/transcriptions",

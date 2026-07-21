@@ -183,15 +183,19 @@ class OpenAIWhisperCloudEntity(SpeechToTextEntity):
                     metadata.language,
                     whisper_language,
                 )
-            data = {
-                "model": self.model.name,
-                "language": whisper_language,
-                "temperature": self.temperature,
-            }
-
-            if self.provider_name != "Cohere":
-                data["prompt"] = self.prompt
-                data["response_format"] = "json"
+            if self.provider_name == "Cohere":
+                data = {
+                    "model": self.model.name,
+                    "language": whisper_language,
+                }
+            else:
+                data = {
+                    "model": self.model.name,
+                    "language": whisper_language,
+                    "temperature": self.temperature,
+                    "prompt": self.prompt,
+                    "response_format": "json",
+                }
 
             request_url = self.api_url if self.custom else f"{self.api_url}{self.endpoint_path}"
 
