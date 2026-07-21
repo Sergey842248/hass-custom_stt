@@ -1,4 +1,4 @@
-# Whisper STT Cloud API integration for Home Assistant 🏠🎙️
+# Custom STT Cloud API integration for Home Assistant 🏠🎙️
 
 This HA custom integration lets you use any compatible OpenAI API (OpenAI, GroqCloud, Mistral AI, others coming ...) for computing speech-to-text in cloud, reducing workload on Home Assistant server.
 
