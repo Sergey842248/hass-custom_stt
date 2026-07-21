@@ -1,8 +1,8 @@
-"""Constants for the OpenAI Whisper Cloud integration."""
+"""Constants for the Custom STT integration."""
 
 import logging
 
-DOMAIN = "openai_whisper_cloud"
+DOMAIN = "custom_stt"
 
 _LOGGER = logging.getLogger(__name__)
 

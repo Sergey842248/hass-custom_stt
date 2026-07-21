@@ -1,4 +1,4 @@
-"""OpenAI Whisper Cloud integration."""
+"""Custom STT integration."""
 
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import (

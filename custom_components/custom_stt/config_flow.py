@@ -1,4 +1,4 @@
-"""Config flow for OpenAI Whisper Cloud integration."""
+"""Config flow for Custom STT integration."""
 
 from __future__ import annotations
 
@@ -99,7 +99,7 @@ async def validate_input(data: dict, provider: WhisperProvider):
 
 
 class OptionsFlowHandler(OptionsFlowWithConfigEntry):
-    """Handle OpenAI Whisper Cloud options."""
+    """Handle Custom STT options."""
 
     config_entry: ConfigEntry
 

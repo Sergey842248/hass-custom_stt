@@ -70,19 +70,19 @@ Before configuring the integration you must first install the `custom_integratio
 
 ### HACS ✨
 
-1. **Add** ➕ [this repository](https://my.home-assistant.io/redirect/hacs_repository/?owner=fabio-garavini&repository=ha-openai-whisper-stt-api&category=integration) to your HACS repositories:
+1. **Add** ➕ [this repository](https://my.home-assistant.io/redirect/hacs_repository/?owner=sergey842248&repository=hass-custom_stt&category=integration) to your HACS repositories:
 
     - **Click** on this link ⤵️
 
-      [![Add Repository to HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=fabio-garavini&repository=ha-openai-whisper-stt-api&category=integration)
+      [![Add Repository to HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=sergey842248&repository=hass-custom_stt&category=integration)
 
     - Or **copy** this url ⤵️ and paste into your HACS custom repostories
 
       ```url
-      https://github.com/fabio-garavini/ha-openai-whisper-stt-api
+      https://github.com/sergey842248/hass-custom_stt
       ```
 
-2. **Install** 💻 the `OpenAI Whisper Cloud` integration
+2. **Install** 💻 the `Custom STT` integration
 3. **Restart** 🔁 Home Assistant
 
 ### Manual Install ⌨️
@@ -108,6 +108,6 @@ Now you can set it up through your Home Assistant Dashboard (YAML configuration 
 
 - Configure the integration by **clicking here** ⤵️
 
-  [![Add Repository to HACS](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=openai_whisper_cloud)
+  [![Add Repository to HACS](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=custom_stt)
 
 - Or navigate to your `Devices & services` page and click `+ Add Integration`
